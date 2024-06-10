@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&display=swap');
+
+body {
+    font-family: "Lato", sans-serif;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+}
+
+#header {
+    background-color: grey;
+    display: flex;
+    width: 100%;
+    align-items: stretch;
+    height: 40px;
+}
+
+#header_logo_img {
+    width: 30px;
+    height: 30px;
+    padding-top: 15px;
+    margin-left: 20px;
+}
+
+.header_item {
+    width: 20%;
+    color: white;
+    font-size: medium;
+    text-align: left;
+    margin-top: -10px;
+    padding-left: 10px;
+}
+
+#title_area {
+    background-color: black;
+    background: url(../images/london_background.jpg) center no-repeat;
+    margin-top: -30px;
+    height: 700px;
+    width: 100%;
+}
+
+#title_area > h1 {
+    margin-left: 15%;
+    padding-top: 150px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 40px;
+    color: white;
+    font-weight: 800;
+    padding-right: -300px;
+    width: 50%;
+}
+
+#green_circle {
+    width: 15px;
+    height: 15px;
+}
+
+#title_area > h3 {
+    margin-left: 15%;
+    color: white;
+    letter-spacing: 5px;
+    margin-top: -20px;
+}
