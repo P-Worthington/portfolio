@@ -76,7 +76,7 @@ body {
 
 #division {
     background-color: black;
-    height: 15px;
+    height: 35px;
 }
 
 #abstract_area {
@@ -120,4 +120,25 @@ body {
     height: 700px;
     width: 100%;
     background-size: cover;
+}
+
+#portfolio_content {
+    position: absolute;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 250px;
+    padding-left: -50px;
+}
+
+#portfolio_content > h3 {
+    letter-spacing: 5px;
+    font-size: xx-large;
+    font-weight: 800;
+}
+
+#portfolio_content > h4 {
+    letter-spacing: 3px;
+    font-size: large;
+    margin-top: -20px;
 }
