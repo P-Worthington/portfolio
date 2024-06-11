@@ -74,6 +74,11 @@ body {
     margin-top: -20px;
 }
 
+#division {
+    background-color: black;
+    height: 15px;
+}
+
 #abstract_area {
     background-color: black;
     width: 80%;
@@ -101,6 +106,10 @@ body {
 #abstract_logo > img {
     height: 75px;
     width: 75px;
+}
+
+#abstract_text {
+    line-height: 1.8;
 }
 
 
