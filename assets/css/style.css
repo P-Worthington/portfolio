@@ -74,7 +74,7 @@ body {
     margin-top: -20px;
 }
 
-#division {
+#division1 {
     background-color: black;
     height: 35px;
 }
@@ -114,7 +114,7 @@ body {
 
 
 #portfolio {
-    background: url(../images/skydive_dark.jpg) no-repeat;
+    background: url(../images/skydive_dark.jpg) no-repeat center;
     background-size: 100%;
     margin-top: -30px;
     height: 700px;
@@ -141,4 +141,81 @@ body {
     letter-spacing: 3px;
     font-size: large;
     margin-top: -20px;
+}
+
+#division2 {
+    background-color: black;
+    height: 15px;
+}
+
+#experience_area {
+    background: url(../images/sky-dark.jpg) no-repeat center;
+    background-size: 100%;
+    margin-top: -30px;
+    height: 700px;
+    width: 100%;
+    background-size: cover;
+}
+
+#experience_content {
+    position: absolute;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 150px;
+    padding-left: -50px;
+}
+
+#experience_title > h3 {
+    letter-spacing: 5px;
+    font-size: xx-large;
+    font-weight: 800;
+}
+
+#contact_area {
+    background-color: black;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    position: absolute;
+    margin-top: -125px;
+    justify-content: center;
+    min-height: 275px;
+    border-radius: 2px;
+}
+
+#contact_info {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 90%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+#contact_title > h3 {
+    letter-spacing: 5px;
+    font-size: large;
+    font-weight: 800;
+}
+
+#contact_text {
+    line-height: 1.8;
+}
+
+#final_bg_img {
+    background: url(../images/climb_dark.jpg) no-repeat top;
+    background-size: 100%;
+    margin-top: -30px;
+    height: 700px;
+    width: 100%;
+    background-size: cover;
+}
+
+#footer {
+    background-color: grey;
+    height: 100px;
 }
