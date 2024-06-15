@@ -117,7 +117,7 @@ body {
     background: url(../images/skydive_dark.jpg) no-repeat center;
     background-size: 100%;
     margin-top: -30px;
-    height: 700px;
+    height: 2200px;
     width: 100%;
     background-size: cover;
 }
@@ -144,9 +144,57 @@ body {
 }
 
 #portfolio_images {
+    height: 1700px;
     position: absolute;
-    background-color: red;
-    height: 200px;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 380px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+#image_one {
+    background-image: url(../images/bwc.jpg);
+    background-size: cover;
+    margin: 10px;
+    width: 100%;
+    max-width: 400px;
+    height: 400px;
+    flex-direction: column;
+}
+
+#image_two {
+    background-image: url(../images/kyn.jpg);
+    background-size: cover;
+    margin: 10px;
+    width: 100%;
+    max-width: 400px;
+    height: 400px;
+    flex-direction: column;
+}
+
+#image_three {
+    background-image: url(../images/terminal.png);
+    background-size: cover;
+    margin: 10px;
+    width: 100%;
+    max-width: 400px;
+    height: 400px;
+    flex-direction: column;
+}
+
+#image_four {
+    background-image: url(../images/terminal.png);
+    background-size: cover;
+    margin: 10px;
+    width: 100%;
+    max-width: 400px;
+    height: 400px;
+    flex-direction: column;
 }
 
 
