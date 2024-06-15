@@ -129,6 +129,7 @@ body {
     margin-right: 15%;
     margin-top: 250px;
     padding-left: -50px;
+    background-color: red;
 }
 
 #portfolio_content > h3 {
@@ -147,10 +148,6 @@ body {
     background-color: red;
     position: static;
     z-index: 100;
-}
-
-#image_one {
-    text-align: right;
 }
 
 
