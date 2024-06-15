@@ -143,6 +143,18 @@ body {
     margin-top: -20px;
 }
 
+#portfolio_images {
+    background-color: red;
+    position: static;
+    z-index: 100;
+}
+
+#image_one {
+    text-align: right;
+}
+
+
+
 #division2 {
     background-color: black;
     height: 15px;
@@ -207,7 +219,7 @@ body {
 }
 
 #final_bg_img {
-    background: url(../images/climb_dark.jpg) no-repeat top;
+    background: url(../images/climb_dark.jpg) no-repeat bottom;
     background-size: 100%;
     margin-top: -30px;
     height: 700px;
