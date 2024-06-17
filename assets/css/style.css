@@ -16,19 +16,11 @@ body {
     height: 40px;
     position: fixed;
     padding-top: 30px;
-    justify-content: space-around;
+    justify-content: space-evenly;
     z-index: 1000;
 }
 
-#header_logo_img {
-    width: 30px;
-    height: 30px;
-    padding-top: 15px;
-    margin-left: 20px;
-}
-
 .header_item {
-    width: 20%;
     color: white;
     font-size: medium;
     text-align: left;
