@@ -566,6 +566,11 @@ body {
     background-size: cover;
 }
 
+.exp {
+    line-height: 1.8;
+    color: aqua;
+}
+
 #division3 {
     background-color: black;
     height: 5px;
