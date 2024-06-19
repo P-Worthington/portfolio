@@ -109,7 +109,7 @@ body {
     background: url(../images/skydive_dark.jpg) no-repeat center;
     background-size: 100%;
     margin-top: -30px;
-    height: 1700px;
+    height: 1900px;
     width: 100%;
     background-size: cover;
 }
@@ -160,7 +160,7 @@ body {
 }
 
 #image_two {
-    background-image: url(../images/kyn.jpg);
+    background-image: url(../images/kyn_home.jpg);
     background-size: cover;
     margin: 10px;
     width: 100%;
@@ -170,7 +170,7 @@ body {
 }
 
 #image_three {
-    background-image: url(../images/bwc.jpg);
+    background-image: url(../images/search_methods.jpg);
     background-size: cover;
     margin: 10px;
     width: 100%;
@@ -182,7 +182,7 @@ body {
 
 #division2 {
     background-color: black;
-    height: 15px;
+    height: 35px;
 }
 
 #experience_area {
@@ -207,6 +207,7 @@ body {
     letter-spacing: 5px;
     font-size: xx-large;
     font-weight: 800;
+    padding-top: 80px;
 }
 
 #experience_timeline{
@@ -563,6 +564,11 @@ body {
     height: 700px;
     width: 100%;
     background-size: cover;
+}
+
+#division3 {
+    background-color: black;
+    height: 5px;
 }
 
 #footer {
