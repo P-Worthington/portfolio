@@ -2,10 +2,16 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+h1, h2 {
+    letter-spacing: 2px;
+}
+
+p {
+    letter-spacing: 1px;
+}
 /* Containers */
 
 .container-wrapper--red {
-    background-color: #f05f40;
     color: white;
 }
 
@@ -32,7 +38,7 @@ body {
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.7);
 }
 
 .content-container {
@@ -75,6 +81,14 @@ body {
     width: 40px;
 }
 
+.dropdown-menu {
+    background-color: rgba(0, 0, 0, .25);
+}
+
+.dropdown-menu a {
+    color: #a7a7a7;
+}
+
 /* Jumbotron */
 
 .jumbotron {
@@ -84,11 +98,17 @@ body {
 .jumbotron h1 {
     color: white;
     font-weight: bold;
-    margin-bottom: 10px;
     color: white;
+    text-align: left;
+    margin-top: -90px;
+
 }
 
-.jumbotron h1 span {
+.jumbotron-header {
+    line-height: 0.6;
+}
+
+.green-prd {
     font-size: 80px;
     color: green;
 }
@@ -96,6 +116,7 @@ body {
 .jumbotron .lead {
     color: #a7a7a7;
     text-align: left;
+    margin-top: 10px;
 }
 
 .jumbotron small {
@@ -106,6 +127,18 @@ body {
 
 /* Block dividers */
 
+.about-bg {
+    background-color: black;
+}
+
+.about-bg h2 {
+    color: white;
+}
+
+.about-bg p {
+    color: #a7a7a7;
+}
+
 .block-divider {
     width: 75px;
     height: 5px;
@@ -113,8 +146,18 @@ body {
     background-color: #444;
 }
 
-.block-divider--orange {
-    background-color: #f05f40;
+.projects-bg {
+    background: url('../images/climb_dark.jpg') no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
 }
 
 .block-divider--white {
@@ -135,16 +178,12 @@ body {
 
 .btn--red {
     color: white;
-    background-color: #f05f40;
-    border-color: #f05f40;
 }
 
 .btn--red:hover,
 .btn--red:active,
 .btn--red:focus,
 .btn--red:active:focus {
-    background-color: #df4929;
-    border-color: #df4929;
     color: white;
 }
 
@@ -203,5 +242,4 @@ body {
     min-width: 100px;
     font-weight: bold;
     margin-top: 10px;
-    color: #f05f40;
 }
