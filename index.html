@@ -1,123 +1,175 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-us">
+
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>portfolio</title>
-
-    <link rel="stylesheet" href="assets/css/style.css">
-
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&display=swap');
-    </style>
+    <title>Whiskey Drop | Taste a new whiskey every month</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
 </head>
+
 <body>
-    <header id="header">
+    <!--Nav-->
+    <div class="container-fluid navalert-container">
+        <nav class="navbar navbar-dark navbar-expand-sm">
+            <a href="/" class="navbar-brand"><img src="assets/images/logo.png"></a>
 
-        <div id="header_home" class="header_item">
-            <p><a href="#title_content">Home</a></p>
-        </div>
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span></button>
 
-        <div id="header_portfolio" class="header_item">
-            <p><a href="#portfolio"></a>Portfolio</a></p>
-        </div>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav mr-auto">
+                    <li class="active nav-item mr-2"><a class="nav-link" href="/">Home</a></li>
+                    <li class="nav-item mr-2"><a class="nav-link" href="/about">About</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Projects</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">Search Methods</a>
+                            <a class="dropdown-item" href="#">Know Your Nouns</a>
+                            <a class="dropdown-item" href="#">British Wildlife Conservation</a>
+                        </div>
+                    </li>
 
-        <div id="header_experience" class="header_item">
-            <p><a href="#experience_title"></a>Experience</a></p>
-        </div>
+                    <li class="nav-item mr-2 d-block d-sm-none"><a class="nav-link" href="/login">Curriculum Vitae</a></li>
+                </ul>
+            </div>
+            <div class="d-none d-sm-block">
+                <p class="navbar-text my-auto mr-2"><i>Curriculum vitae</i></p>
+            </div>
+        </nav>
+    </div>
 
-        <div id="header_contact" class="header_item">
-            <p><a href="#contact_title"></a>Contact</a></p>
-        </div>
-    </header>
-
-    <main>
-        <div id="title_area">
-            <div id="title_content">
-                <h1>Paul<br>Worthington</h1>
-                <h3>Software Developer</h3>
+    <div class="container-fluid callout-container">
+        <!-- Callout -->
+        <div class="opaque-overlay">&nbsp;</div>
+        <div class="row">
+            <div class="col-12">
+                <section class="callout jumbotron text-center">
+                    <h1 class="jumbotron-header">Paul Worthington<span>.</span></h1>
+                    <p class="lead">Software Developer</p>
+                </section>
             </div>
         </div>
+        <!-- /.callout -->
+    </div>
 
-        <div id="abstract_area">
-            <div id="abstract_info">
-                <div id="abstract_logo">
-                    <img src="assets/images/logo.png">
+    <!-- Quotes -->
+    <div class="container-wrapper">
+        <div class="container quotes-container content-container">
+            <section class="quotes">
+                <div class="row">
+                    <div class="col-12 page-header">
+                        <h2 class="text-uppercase">Quotes:</h2>
+                        <hr class="block-divider block-divider--short">
+                    </div>
                 </div>
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        <div class="media">
+                            <div class="d-none d-sm-block">
+                                <img src="images/girl-image.png" class="rounded-circle mr-3" height=100 width=100>
+                            </div>
+                            <div class="media-body">
+                                <blockquote class="blockquote">
+                                    <p>I've been introduced to more than 10 great international whiskeys I never knew about.</p>
+                                    <p>- Jane Doe</p>
+                                </blockquote>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="media">
+                            <div class="d-none d-sm-block">
+                                <img src="images/guy-image.png" class="rounded-circle mr-3" height=100 width=100>
+                            </div>
+                            <div class="media-body">
+                                <blockquote class="blockquote">
+                                    <p>I haven't been sober for months!</p>
+                                    <p>- Jane Doe</p>
+                                </blockquote>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- /.quotes -->
+        </div>
+    </div>
 
-                <div id="abstract_text">
-                    <p>Junior software developer. Graduate of chemistry from Loughborough University with first class honours. Qualified teacher with postgraduate certificate in education. international athlete, representing Wales Lacrosse
-                    </p>
+    <!-- Features -->
+    <div class="container-wrapper container-wrapper--red">
+        <div class="container features-container content-container">
+            <section class="features">
+                <div class="row">
+                    <div class="col-12 page-header">
+                        <h2 class="text-uppercase">Features:</h2>
+                        <hr class="block-divider block-divider--short block-divider--white">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="feature">
+                            <h3><i class="fas fa-gift d-none d-sm-block"></i> Feature 1 <span class="badge badge-success">NEW!</span></h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            <p><a class="btn btn-sm btn-light" href="">Read More</a></p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="feature">
+                            <h3><i class="fas fa-credit-card d-none d-sm-block"></i> Feature 2</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            <p><a class="btn btn-sm btn-light" href="">Read More</a></p>
+                        </div>
+                    </div>
+                    <div class="col-12 d-md-none d-lg-block col-lg-4">
+                        <div class="feature">
+                            <h3><i class="fas fa-times-circle d-none d-sm-block"></i> Feature 3</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            <p><a class="btn btn-sm btn-light" href="">Read More</a></p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- /.features -->
+        </div>
+    </div>
+
+    <div class="modal" tabindex="-1" role="dialog" id="signUpModal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Sign Up To Whiskey Drop!</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Password</label>
+                            <input type="password" class="form-control" id="password" placeholder="Password">
+                        </div>
+                        <div class="form-group">
+                            <label for="repeatPassword">Repeat Password</label>
+                            <input type="password" class="form-control" id="repeatPassword" placeholder="Repeat Password">
+                        </div>
+                        <button type="submit" class="btn btn-success">Submit</button>
+                    </form>
                 </div>
             </div>
         </div>
+    </div>
 
-        <div id="division1">
-
-        </div>
-
-        <div id="portfolio">
-            <div id="portfolio_content">
-                <h3>Portfolio</h3>
-                <h4>Latest Work. See More ></h4>
-            </div>
-
-            <div id="portfolio_images">
-                <div id="image_one"></div>
-                <div id="image_two"></div>
-                <div id ="image_three"></div>
-                <div id="image_four"></div>
-            </div>
-
-        </div>
-
-        <div id="division2">
-
-        </div>
-
-
-
-        <div id="contact_area">
-            <div id="contact_info">
-                <div id="contact_title">
-                    <h3>Contact</h3>
-                </div>
-
-                <div id="contact_text">
-                    <p>email: <a href="mailto:pw@paulworthington.dev">pw@paulworthington.dev</a></p>
-                    <p>phone:</p>
-                    <p>Linkedin: Paul Michael</p>
-                </div>
-            </div>
-        </div>
-
-        <div id="final_bg_img">
-            <div id="experience_content">
-                <div id="experience_title">
-                    <h3>Experience</h3>
-                </div>
-
-                <div id="exp_text">
-                    <p class="exp">Junior software developer proficient in python JavaScript, CSS and HTML. Currently studying for a diploma in full stack software developement with Code Institute.</p>
-                    <p class="exp">2020 graduate of Chemsitry from Loughborough University with first class honours. 2021 graduate from Nottingham Trent University with a postgraduate certificate in education (PGCE).</p>
-                    <p class="exp">Currently in work with the British Civil Service based in the North West of England.</p>
-                    <p class="exp">International athlete representing Wales lacrosse at the European championships in 2019 and being awared most valuable player.</p>
-                </div>
-            </div>
-
-    </main>
-
-    <div id="division3"></div>
-
-    <footer id="footer">
-        <div>   
-            <ul id="social-media-list">
-                <li><a href="mailto:pw@paulworthington.dev" content="Link to send email, opens in a newtab" target="_blank" rel="noopener"><i class="fa-solid fa-envelope"></i></a></li>
-                <li><a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile" content="Link to Linkedin, opens in a newtab" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin"></i></a></li>
-            </ul>
-        </div>
-    </footer>
-
-    <script src="https://kit.fontawesome.com/83eae7a1c8.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </body>
+
 </html>
